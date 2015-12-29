@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
         GifImageView gif = (GifImageView)findViewById(R.id.gif_view);
         try{
             drawable = new GifDrawable("/sdcard/test.gif");
+            
         }catch (Exception e){
             e.printStackTrace();
         }
